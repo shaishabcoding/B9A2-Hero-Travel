@@ -4,7 +4,6 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 header,
 main {
@@ -14,11 +13,25 @@ main {
 * {
   font-family: Mulish;
 }
+a,
+button {
+  cursor: pointer;
+}
 /* defaults end*/
 
 /* sheared start */
 .text-primary {
   color: #ff5400;
+}
+.description {
+  color: #131318b3;
+}
+.btn-primary {
+  border-radius: 0.5rem;
+  border: none;
+  background: #ff5400;
+  padding: 0.8rem 1.5rem;
+  color: white;
 }
 /* sheared end */
 
@@ -27,6 +40,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 2rem 0;
 }
 .nav-title {
   font-size: 2.25rem;
@@ -34,6 +48,8 @@ nav {
   gap: 1rem;
   color: #131318;
   font-weight: 800;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 .nav-title img {
   width: 1em;
@@ -43,6 +59,7 @@ nav ul {
   display: flex;
   gap: 2rem;
   list-style: none;
+  text-align: center;
 }
 nav ul a {
   text-decoration: none;
@@ -50,4 +67,57 @@ nav ul a {
   font-size: 1.125rem;
   font-weight: 400;
 }
+/*    banner start */
+.banner {
+  aspect-ratio: 1170/500;
+  border-radius: 1rem;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8),
+      rgba(19, 19, 24, 0)
+    ),
+    url("../images/Group\ 13\ \(1\)\ \(1\).png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 11.5rem;
+  box-sizing: border-box;
+}
+.banner > div {
+  text-align: center;
+}
+.banner-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner p {
+  padding: 0 3rem;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.74);
+}
+.banner form {
+  margin-top: 3rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 0.8rem;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+.banner form > * {
+  border: 0;
+  padding: 0.8rem 1.5rem;
+  box-sizing: border-box;
+  outline: 0;
+  border-radius: 0.5rem;
+  display: block;
+  width: 100%;
+}
+.banner form select,
+.banner form input::placeholder {
+  color: rgba(19, 19, 24, 0.5);
+}
+/*    banner end */
 /* header end */

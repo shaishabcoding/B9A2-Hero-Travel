@@ -1,0 +1,38 @@
+@media screen and (max-width: 578px) {
+  /* defaults start*/
+  header,
+  main {
+    padding: 1rem;
+    padding-top: 0;
+  }
+  /* defaults start*/
+  /* nav start */
+  nav ul,
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    gap: 1rem;
+  }
+  /* nav end */
+  /* banner start */
+  .banner {
+    aspect-ratio: auto;
+    padding: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .banner-title {
+    font-size: 1.5rem;
+  }
+  .banner form {
+    margin-top: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .banner p {
+    padding: 0 1rem;
+  }
+  /* banner end */
+}

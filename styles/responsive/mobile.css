@@ -15,6 +15,15 @@
     gap: 1rem;
   }
   /* nav end */
+  /* shared start */
+  .description {
+    font-size: 0.8rem;
+  }
+  .btn-primary {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
+  }
+  /* shared end */
   /* banner start */
   .banner {
     aspect-ratio: auto;
@@ -35,4 +44,20 @@
     padding: 0 1rem;
   }
   /* banner end */
+
+  /* tours start */
+  .tours {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .tours > * {
+    width: 100%;
+  }
+  .tours-title {
+    font-size: 1.25rem;
+  }
+  .tours ul {
+    font-size: 0.8rem;
+  }
+  /* tours end */
 }

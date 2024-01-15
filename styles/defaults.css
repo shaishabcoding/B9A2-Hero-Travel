@@ -9,6 +9,7 @@ header,
 main {
   padding: 8rem;
   padding-top: 0;
+  padding-bottom: 6rem;
 }
 * {
   font-family: Mulish;
@@ -27,6 +28,8 @@ button {
   color: #131318b3;
 }
 .btn-primary {
+  font-size: 1.25rem;
+  font-weight: bold;
   border-radius: 0.5rem;
   border: none;
   background: #ff5400;
@@ -121,3 +124,28 @@ nav ul a {
 }
 /*    banner end */
 /* header end */
+/* main start */
+/*    tours start */
+.tours {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.tours > * {
+  width: 50%;
+}
+.tours-title {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.tours ul {
+  padding-left: 1.5rem;
+  color: #131318b3;
+}
+.tours-banner img {
+  width: 100%;
+  border-radius: 1rem;
+}
+/*    tours end */
+/* main end */

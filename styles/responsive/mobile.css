@@ -151,6 +151,18 @@
     margin-top: 1rem;
   }
   /* news-letter end */
+  /* optional section start */
+  .get-lost {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .get-lost > * {
+    width: 100%;
+  }
+  .get-lost-title {
+    font-size: 1.5rem;
+  }
+  /* optional section emd */
   /* unique section start */
   .get-instant-discounts,
   .activities {

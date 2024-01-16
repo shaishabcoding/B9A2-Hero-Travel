@@ -404,6 +404,33 @@ nav ul a {
 }
 
 /*    news-letter end */
+/*    optional section start */
+.get-lost {
+  display: flex;
+  margin-top: 4rem;
+  gap: 1.8rem;
+  align-items: center;
+}
+.get-lost-title {
+  color: #131318;
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+}
+.get-lost > * {
+  width: calc(50% - 1.8rem / 2);
+}
+.get-lost ul {
+  padding-left: 1.5rem;
+  font-size: 0.8rem;
+  width: 80%;
+  font-weight: bold;
+}
+.get-lost-banner img {
+  width: 100%;
+  object-fit: cover;
+}
+/*    optional section end */
 /*    unique section start */
 .get-instant-discounts {
   padding: 1rem;

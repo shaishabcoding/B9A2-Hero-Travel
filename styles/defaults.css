@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 /* defaults start*/
 html,
 body {
@@ -32,6 +33,22 @@ button {
   font-weight: bold;
   border-radius: 0.5rem;
   border: none;
+  background: #ff5400;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  box-sizing: border-box;
+}
+.title {
+  font-size: 2.25rem;
+  display: flex;
+  gap: 1rem;
+  color: #131318;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.title img {
+  width: 1em;
 }
 /* sheared end */
 
@@ -41,18 +58,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 2rem 0;
-}
-.nav-title {
-  font-size: 2.25rem;
-  display: flex;
-  gap: 1rem;
-  color: #131318;
-  font-weight: 800;
-  margin: 0;
-  margin-bottom: 1rem;
-}
-.nav-title img {
-  width: 1em;
 }
 nav ul {
   padding: 0;
@@ -104,7 +109,7 @@ nav ul a {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.25rem;
+  gap: 1rem;
 }
 .banner form > *,
 .news-letter-content form > * {
@@ -116,10 +121,14 @@ nav ul a {
   display: block;
   width: 100%;
 }
+.banner form .btn-primary {
+  min-width: max-content;
+}
 .banner form select,
 .banner form input::placeholder {
   color: rgba(19, 19, 24, 0.5);
 }
+
 /*    banner end */
 /* header end */
 /* main start */
@@ -144,6 +153,9 @@ nav ul a {
 .tours-banner img {
   width: 100%;
   border-radius: 1rem;
+}
+.tours .description {
+  margin-bottom: 2rem;
 }
 /*    tours end */
 /*    destination start */
@@ -320,3 +332,27 @@ nav ul a {
 }
 /*    news-letter end */
 /* main end */
+/* footer start */
+footer {
+  padding: 4rem 15rem;
+  text-align: center;
+  background: rgba(19, 19, 24, 0.05);
+}
+footer > .title {
+  width: min-content;
+  margin: 0 auto;
+}
+footer hr {
+  border-color: rgba(19, 19, 24, 0.1);
+  margin: 2rem 0;
+}
+.social-icon-container {
+  margin-top: 3rem;
+}
+.social-icon-container a {
+  color: 131318;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+/* footer end */

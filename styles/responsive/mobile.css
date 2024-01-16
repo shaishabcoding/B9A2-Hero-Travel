@@ -83,4 +83,32 @@
     margin: 0.7rem auto 1.7rem;
   }
   /* destination end */
+
+  /*    why-choose-us start */
+  .why-choose-us {
+    margin-top: 2rem;
+  }
+  .why-choose-us > p {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .why-choose-us-card-container {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  .why-choose-us-card-container > .card {
+    width: 100%;
+    padding: 1.8rem;
+  }
+  .why-choose-us-card-container .card-title {
+    font-size: 1.25rem;
+  }
+  .why-choose-us-title {
+    font-size: 1.25rem;
+    margin: 1rem 0 0;
+  }
+  /*    why-choose-us end */
 }

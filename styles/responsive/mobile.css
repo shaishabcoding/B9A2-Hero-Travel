@@ -152,6 +152,19 @@
   }
   /* news-letter end */
   /* optional section start */
+  .deals-discounts,
+  .deals-discounts-card {
+    margin-top: 2rem;
+  }
+  .deals-discounts-title {
+    font-size: 1.5rem;
+  }
+  .deals-discounts-card > div {
+    padding: 1.8rem;
+    width: 100%;
+    margin-top: 11rem;
+  }
+  /* &&&&& */
   .get-lost {
     margin-top: 2rem;
     flex-direction: column;

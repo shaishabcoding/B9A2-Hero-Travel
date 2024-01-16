@@ -60,4 +60,27 @@
     font-size: 0.8rem;
   }
   /* tours end */
+  /* destination start */
+  .destination {
+    margin-top: 2.5rem;
+  }
+  .destination-img-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    gap: 0.8rem;
+  }
+  .destination-img-container > div {
+    grid-area: auto;
+  }
+  .destination-img-container img {
+    height: 11rem;
+  }
+  .destination-title {
+    font-size: 1.25rem;
+  }
+  .destination > .description {
+    width: 80%;
+    margin: 0.7rem auto 1.7rem;
+  }
+  /* destination end */
 }

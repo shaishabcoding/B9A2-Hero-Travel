@@ -1,212 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B9A2-Shaishab-Travel</title>
+    <link rel="stylesheet" href="styles/defaults.css" />
+    <link rel="stylesheet" href="styles/responsive/mobile.css" />
+    <script
+      src="https://kit.fontawesome.com/2b4680fd93.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>B9A2-Shaishab-Travel</title>
-  <link rel="stylesheet" href="styles/defaults.css" />
-  <link rel="stylesheet" href="styles/responsive/mobile.css" />
-  <script src="https://kit.fontawesome.com/2b4680fd93.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <!-- header start -->
-  <header>
-    <nav>
-      <div>
-        <h2 class="title">
-          <img src="images/Group 40071 (2).png" alt="" />
-          Shaishab <span class="text-primary">Travel</span>
-        </h2>
-        <div onclick="toggleOpenMenu()" class="menu-icon">
-          <i class="fa-solid fa-bars"></i>
+  <body>
+    <!-- header start -->
+    <header>
+      <nav>
+        <div>
+          <h2 class="title">
+            <img src="images/Group 40071 (2).png" alt="" />
+            Shaishab <span class="text-primary">Travel</span>
+          </h2>
+          <div onclick="toggleOpenMenu(this)" class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
-      </div>
-      <ul id="menu">
-        <li><a class="text-primary" href="#">Home</a></li>
-        <li><a href="#">Packages</a></li>
-        <li><a href="#">Testimonial</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <section class="banner">
-      <div>
-        <h1 class="banner-title">Explore Your Travel</h1>
-        <p class="description">
-          Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
-          adipiscing. In et odio enim ac quis sapien urna eu phasellus.
-        </p>
-        <form action="#">
-          <input type="text" placeholder="Where go" />
-          <select>
-            <option value="when">When</option>
-          </select>
-          <select>
-            <option value="type">Select Type</option>
-          </select>
-          <button class="btn-primary" type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            Find Now
-          </button>
-        </form>
-      </div>
-    </section>
-  </header>
-  <!-- header end -->
-  <!-- main start -->
-  <main>
-    <section class="tours">
-      <div class="tours-content">
-        <h2 class="tours-title">Our Popular Tours</h2>
-        <p class="description">
-          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-          odio sit massa. Sodales dictumst nec nibh pellentesque.
-        </p>
-        <ul>
-          <li>
-            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-            nullam odio neque diam. Sociis erat at .
-          </li>
-          <li>
-            Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
-            porta lacus. Lectus suspendisse nullam.
-          </li>
-          <li>
-            Accumsan eget et turpis praesent lorem egestas enim elit bibendum.
-            Risus at in.
-          </li>
+        <ul id="menu">
+          <li><a class="text-primary" href="#">Home</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Testimonial</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
+      </nav>
+      <section class="banner">
+        <div>
+          <h1 class="banner-title">Explore Your Travel</h1>
+          <p class="description">
+            Our commitment to exceptional service extends beyond the planning
+            stage. During your journey, our 24/7 support ensures that you have a
+            seamless and stress-free travel experience.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Where go" />
+            <select>
+              <option value="when">When</option>
+            </select>
+            <select>
+              <option value="type">Select Type</option>
+            </select>
+            <button class="btn-primary" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              Find Now
+            </button>
+          </form>
+        </div>
+      </section>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main>
+      <section class="tours">
+        <div class="tours-content">
+          <h2 class="tours-title">Our Popular Tours</h2>
+          <p class="description">
+            Travel provides an opportunity to explore new destinations and
+            discover different cultures, traditions, and ways of life. It allows
+            us to broaden our horizons, challenge preconceptions, and gain a
+            deeper understanding of the world.
+          </p>
+          <ul>
+            <li>
+              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+              nullam odio neque diam. Sociis erat at .
+            </li>
+            <li>
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
+              porta lacus. Lectus suspendisse nullam.
+            </li>
+            <li>
+              Accumsan eget et turpis praesent lorem egestas enim elit bibendum.
+              Risus at in.
+            </li>
+          </ul>
+          <p class="description">
+            Many people choose to travel as a means of relaxation and
+            rejuvenation. Whether it's lounging on a tropical beach, indulging
+            in spa treatments, or practicing yoga in serene surroundings, travel
+            provides an escape from daily routines and offers opportunities for
+            rest and recreation.
+          </p>
+          <button class="btn-primary">Read More</button>
+        </div>
+        <div class="tours-banner">
+          <img src="images/Rectangle 4.png" alt="" />
+        </div>
+      </section>
+      <section class="destination">
+        <h2 class="destination-title">Choose Your Destination</h2>
         <p class="description">
-          Amet consectetur. Vulputate commodo felis molestie risus ornare
-          nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-          Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
-          semper tincidunt.
+          Different destinations offer a wide array of attractions and
+          activities. Some may be known for their historical sites,
+          architectural wonders, or natural landscapes, while others may offer
+          vibrant nightlife, cultural events, or outdoor adventures.
         </p>
-        <button class="btn-primary">Read More</button>
-      </div>
-      <div class="tours-banner">
-        <img src="images/Rectangle 4.png" alt="" />
-      </div>
-    </section>
-    <section class="destination">
-      <h2 class="destination-title">Choose Your Destination</h2>
-      <p class="description">
-        Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-        odio sit massa. Sodales dictumst nec nibh pellentesque.
-      </p>
-      <div class="destination-img-container">
-        <div class="destination-img-1">
-          <img src="images/Rectangle 5.png" alt="" />
-          <h3 class="destination-img-title">Maldives</h3>
+        <div class="destination-img-container">
+          <div class="destination-img-1">
+            <img src="images/Rectangle 5.png" alt="" />
+            <h3 class="destination-img-title">Maldives</h3>
+          </div>
+          <div class="destination-img-2">
+            <img src="images/Rectangle 8.png" alt="" />
+            <h3 class="destination-img-title">Indonesia</h3>
+          </div>
+          <div class="destination-img-3">
+            <img src="images/Rectangle 6.png" alt="" />
+            <h3 class="destination-img-title">Srilanka</h3>
+          </div>
+          <div class="destination-img-4">
+            <img src="images/Rectangle 7.png" alt="" />
+            <h3 class="destination-img-title">North America</h3>
+          </div>
+          <div class="destination-img-5">
+            <img src="images/Rectangle 9.png" alt="" />
+            <h3 class="destination-img-title">Kashmir</h3>
+          </div>
+          <div class="destination-img-6">
+            <img src="images/Rectangle 11.png" alt="" />
+            <h3 class="destination-img-title">Bangladesh</h3>
+          </div>
+          <div class="destination-img-7">
+            <img src="images/Rectangle 10.png" alt="" />
+            <h3 class="destination-img-title">Bandarban</h3>
+          </div>
         </div>
-        <div class="destination-img-2">
-          <img src="images/Rectangle 8.png" alt="" />
-          <h3 class="destination-img-title">Indonesia</h3>
-        </div>
-        <div class="destination-img-3">
-          <img src="images/Rectangle 6.png" alt="" />
-          <h3 class="destination-img-title">Srilanka</h3>
-        </div>
-        <div class="destination-img-4">
-          <img src="images/Rectangle 7.png" alt="" />
-          <h3 class="destination-img-title">North America</h3>
-        </div>
-        <div class="destination-img-5">
-          <img src="images/Rectangle 9.png" alt="" />
-          <h3 class="destination-img-title">Kashmir</h3>
-        </div>
-        <div class="destination-img-6">
-          <img src="images/Rectangle 11.png" alt="" />
-          <h3 class="destination-img-title">Bangladesh</h3>
-        </div>
-        <div class="destination-img-7">
-          <img src="images/Rectangle 10.png" alt="" />
-          <h3 class="destination-img-title">Bandarban</h3>
-        </div>
-      </div>
-    </section>
-    <section class="why-choose-us">
-      <h2 class="why-choose-us-title">Why Choose Us</h2>
-      <p class="description">
-        Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-        odio sit massa. Sodales dictumst nec nibh pellentesque.
-      </p>
-      <div class="why-choose-us-card-container">
-        <div class="card">
-          <img src="images/hotel 1.svg" alt="" />
-          <h3 class="card-title">Handpicked Hotels</h3>
-          <p class="description">
-            Amet consectetur. Vulputate commodo felis molestie risus ornare
-            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-            Habitant adipiscing risus natoque aliquet.
-          </p>
-        </div>
-        <div class="card">
-          <img src="images/map 1.svg" alt="" />
-          <h3 class="card-title">World Class Service</h3>
-          <p class="description">
-            Amet consectetur. Vulputate commodo felis molestie risus ornare
-            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-            Habitant adipiscing risus natoque aliquet.
-          </p>
-        </div>
-        <div class="card">
-          <img src="images/price-tag 1.svg" alt="" />
-          <h3 class="card-title">Best Price Guarantee</h3>
-          <p class="description">
-            Amet consectetur. Vulputate commodo felis molestie risus ornare
-            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-            Habitant adipiscing risus natoque aliquet.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- todo -->
-    <section class="news-letter">
-      <div class="news-letter-content">
-        <h3 class="news-letter-title">Newsletter</h3>
-        <p class="descripton">
-          Get your daily dose of travel news & tips. Sign up today!
+      </section>
+      <section class="why-choose-us">
+        <h2 class="why-choose-us-title">Why Choose Us</h2>
+        <p class="description">
+          Over the years, we have built strong relationships with a wide network
+          of trusted partners and suppliers across the globe. This allows us to
+          secure top-quality accommodations, transportation services, and unique
+          experiences for our clients. We carefully select our partners based on
+          their reputation, reliability, and commitment to exceptional service.
         </p>
-        <form action="#">
-          <input type="text" placeholder="Enter your name" /><input type="email" placeholder="Enter your email" />
-          <button type="submit" class="btn-primary">Subscribe</button>
-        </form>
-      </div>
-      <div class="news-letter-banner">
-        <img src="images/Rectangle 8 (1).png" alt="" />
-        <div class="discount-container">
-          <p class="description">Travel.com</p>
-          <h3 class="discount-title">Save up to 70%</h3>
+        <div class="why-choose-us-card-container">
+          <div class="card">
+            <img src="images/hotel 1.svg" alt="" />
+            <h3 class="card-title">Handpicked Hotels</h3>
+            <p class="description">
+              We believe that excellent service is a hallmark of a memorable
+              hotel experience. The handpicked hotels we recommend pride
+              themselves on delivering exceptional hospitality and personalized
+              service. Friendly and attentive staff members are dedicated to
+              meeting your needs and ensuring you have a seamless and pleasant
+              stay.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/map 1.svg" alt="" />
+            <h3 class="card-title">World Class Service</h3>
+            <p class="description">
+              Our knowledgeable travel experts have extensive experience and
+              deep destination knowledge. We stay updated on the latest trends,
+              attractions, and travel options to provide you with the best
+              advice and recommendations. Whether you need assistance in
+              choosing the perfect destination, selecting accommodations, or
+              planning activities, we offer expert guidance to help you make
+              informed decisions.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/price-tag 1.svg" alt="" />
+            <h3 class="card-title">Best Price Guarantee</h3>
+            <p class="description">
+              We strive to offer competitive prices for all aspects of your
+              travel, including flights, accommodations, transportation, and
+              activities. Our team works diligently to negotiate favorable rates
+              and discounts to pass on the savings to our clients.
+            </p>
+          </div>
         </div>
+      </section>
+      <!-- todo -->
+      <!-- unique section start -->
+      <section class="get-instant-discounts">
+        <img src="images/Globe.png" alt="" />
+        <div class="get-instant-discounts-content">
+          <h2 class="get-instant-title">Get instant discounts</h2>
+          <p class="description">
+            Just sign into your Booking.com account and look for the blue Genius
+            logo to save
+          </p>
+          <button class="btn-primary">Sign In</button
+          ><button class="btn-primary">Register</button>
+        </div>
+      </section>
+      <section class="activities">
+        <h2 class="activities-title">ADVENTURE & ACTIVITY</h2>
+        <p class="description">
+          Mollit voluptatem perspiciatis convallis elementum corporis quo
+          veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing
+          repudiandae eius cursus? Nostrum magnis maxime curae placeat.
+        </p>
+        <div class="activities-card-container">
+          <div class="activities-card">
+            <img src="images/camping.png" alt="" />
+            <h3 class="card-title">Camping</h3>
+            <p class="descrption">30 Destination</p>
+          </div>
+          <div class="activities-card">
+            <img src="images/off-road.png" alt="" />
+            <h3 class="card-title">Off Road</h3>
+            <p class="descrption">23 Destination</p>
+          </div>
+          <div class="activities-card">
+            <img src="images/camp-fire.png" alt="" />
+            <h3 class="card-title">Camp Fire</h3>
+            <p class="descrption">67 Destination</p>
+          </div>
+          <div class="activities-card">
+            <img src="images/exploring.png" alt="" />
+            <h3 class="card-title">Exploring</h3>
+            <p class="descrption">68 Destination</p>
+          </div>
+          <div class="activities-card">
+            <img src="images/trekking.png" alt="" />
+            <h3 class="card-title">Trekking</h3>
+            <p class="descrption">45 Destination</p>
+          </div>
+          <div class="activities-card">
+            <img src="images/adventure.png" alt="" />
+            <h3 class="card-title">Adventure</h3>
+            <p class="descrption">88 Destination</p>
+          </div>
+        </div>
+      </section>
+      <!-- unique section end -->
+      <section class="news-letter">
+        <div class="news-letter-content">
+          <h3 class="news-letter-title">Newsletter</h3>
+          <p class="descripton">
+            Get your daily dose of travel news & tips. Sign up today!
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Enter your name" /><input
+              type="email"
+              placeholder="Enter your email"
+            />
+            <button type="submit" class="btn-primary">Subscribe</button>
+          </form>
+        </div>
+        <div class="news-letter-banner">
+          <img src="images/Rectangle 8 (1).png" alt="" />
+          <div class="discount-container">
+            <p class="description">Travel.com</p>
+            <h3 class="discount-title">Save up to 70%</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer>
+      <h2 class="title">
+        <img src="images/Group 40071 (2).png" alt="" />
+        Shaishab <span class="text-primary">Travel</span>
+      </h2>
+      <p class="description">
+        One of the most enriching aspects of travel is the chance to immerse
+        oneself in different cultures. By interacting with locals, trying
+        traditional cuisine, visiting historical sites, and participating in
+        cultural events, travelers gain insight into the customs, traditions,
+        and values of different societies.
+      </p>
+      <div class="social-icon-container">
+        <a href="https://facebook.com/shaishab316"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/shaishabcoding"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </div>
-    </section>
-  </main>
-  <!-- main end -->
-  <!-- footer start -->
-  <footer>
-    <h2 class="title">
-      <img src="images/Group 40071 (2).png" alt="" />
-      Shaishab <span class="text-primary">Travel</span>
-    </h2>
-    <p class="description">
-      Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae
-      blandit orci potenti vulputate. Leo erat maecenas vitae elementum
-      ultricies nullam.
-    </p>
-    <div class="social-icon-container">
-      <a href="https://facebook.com/shaishab316"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href=""><i class="fa-brands fa-twitter"></i></a>
-      <a href=""><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://github.com/shaishabcoding"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <hr />
-    <p class="description">2024, All Rights Reserved.</p>
-  </footer>
-  <!-- footer end -->
-  <script src="/scripts/main.js"></script>
-</body>
-
+      <hr />
+      <p class="description">2024, All Rights Reserved.</p>
+    </footer>
+    <!-- footer end -->
+    <script src="/scripts/main.js"></script>
+  </body>
 </html>

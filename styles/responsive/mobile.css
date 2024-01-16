@@ -16,7 +16,7 @@
     margin-top: 2rem;
     gap: 1rem;
   }
-  nav > div{
+  nav > div {
     width: 100%;
   }
   /* nav end */
@@ -32,7 +32,7 @@
     padding: 0.6rem 1.2rem;
     font-size: 0.8rem;
   }
-  .menu-icon{
+  .menu-icon {
     display: block;
   }
   /* shared end */
@@ -151,6 +151,22 @@
     margin-top: 1rem;
   }
   /* news-letter end */
+  /* unique section start */
+  .get-instant-discounts,
+  .activities {
+    margin-top: 2rem;
+  }
+  .get-instant-discounts,
+  .activities-card-container {
+    flex-direction: column;
+  }
+  .activities-title {
+    font-size: 1.5rem;
+  }
+  .get-instant-discounts button {
+    margin: 1rem 0.5rem 0 0;
+  }
+  /* unique section end */
   /* footer start */
   footer {
     padding: 2rem;

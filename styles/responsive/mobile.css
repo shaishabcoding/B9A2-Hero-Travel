@@ -84,7 +84,7 @@
   }
   /* destination end */
 
-  /*    why-choose-us start */
+  /* why-choose-us start */
   .why-choose-us {
     margin-top: 2rem;
   }
@@ -110,5 +110,30 @@
     font-size: 1.25rem;
     margin: 1rem 0 0;
   }
-  /*    why-choose-us end */
+  /* why-choose-us end */
+  /* news-letter start */
+  .news-letter {
+    margin-top: 3rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .news-letter-content {
+    padding: 1.5rem;
+  }
+  .discount-container {
+    bottom: 2rem;
+    right: 0.5rem;
+  }
+  .discount-container * {
+    font-size: 0.9rem;
+  }
+  .discount-title {
+    font-size: 1.25rem;
+    margin-top: 0.2rem;
+  }
+  .news-letter-content form {
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+  /* news-letter end */
 }
